@@ -206,7 +206,7 @@ backend/tests/test_simulator_and_cost.py::test_cost_optimization_service PASSED 
 
 ---
 
-## Dashboard Pages (12 Complete Modules)
+## Dashboard Pages 
 
 1. **Overview Dashboard**: High-level KPI cards, live dual timeline chart, and decision audit logs.
 2. **Workload Analytics**: Diurnal pattern heatmap, coupled server physical metrics, and custom CSV upload.
@@ -223,11 +223,12 @@ backend/tests/test_simulator_and_cost.py::test_cost_optimization_service PASSED 
 
 ---
 
-## Academic Documentation Quick Links
-- **[Software Requirements Specification (SRS)](file:///e:/Autoscaling_Engine/docs/SRS.md)** (IEEE 830 standard)
-- **[System Design Document](file:///e:/Autoscaling_Engine/docs/system_design.md)** (Mermaid architecture, DFD & Sequence diagrams)
-- **[Database Design Document](file:///e:/Autoscaling_Engine/docs/database_design.md)** (ER diagram & schemas)
-- **[Verification & Test Plan](file:///e:/Autoscaling_Engine/docs/test_plan.md)** (14/14 automated tests)
-- **[Comprehensive User Manual](file:///e:/Autoscaling_Engine/docs/user_manual.md)** (Windows PowerShell setup guide)
-- **[Viva Voce Examination Pack](file:///e:/Autoscaling_Engine/docs/viva_questions.md)** (45 Q&As, 2-min pitch & 5-min demo script)
-- **[Complete B.Tech Major Project Report](file:///e:/Autoscaling_Engine/docs/project_report.md)** (44 academic chapters ready for submission)
+## 📚 Academic Documentation
+
+- **[Software Requirements Specification (SRS)](docs/SRS.md)** — Requirements and IEEE 830 structure
+- **[System Design Document](docs/system_design.md)** — Architecture, DFD and sequence diagrams
+- **[Database Design Document](docs/database_design.md)** — Database schema and ER diagram
+- **[Verification & Test Plan](docs/test_plan.md)** — Testing strategy and test cases
+- **[Comprehensive User Manual](docs/user_manual.md)** — Setup and usage instructions
+- **[Viva Voce Examination Pack](docs/viva_questions.md)** — Viva questions and project presentation guide
+- **[B.Tech Major Project Report](docs/project_report.md)** — Detailed project documentation
