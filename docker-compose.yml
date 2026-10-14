@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  autoscaling-engine:
+    build: .
+    container_name: ai-autoscaling-engine
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - PORT=5000
+      - SECRET_KEY=docker-autoscaling-secret-2026
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./instance:/app/instance
+    restart: unless-stopped
