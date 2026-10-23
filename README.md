@@ -230,5 +230,3 @@ backend/tests/test_simulator_and_cost.py::test_cost_optimization_service PASSED 
 - **[Database Design Document](docs/database_design.md)** — Database schema and ER diagram
 - **[Verification & Test Plan](docs/test_plan.md)** — Testing strategy and test cases
 - **[Comprehensive User Manual](docs/user_manual.md)** — Setup and usage instructions
-- **[Viva Voce Examination Pack](docs/viva_questions.md)** — Viva questions and project presentation guide
-- **[B.Tech Major Project Report](docs/project_report.md)** — Detailed project documentation
