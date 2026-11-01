@@ -13,7 +13,7 @@ class LiveSimulationSession:
     """
     def __init__(self, session_id: str = "default"):
         self.session_id = session_id
-        self.lock = threading.Lock()
+        self.lock = threading.RLock()
         self.policy = AutoscalingPolicy()
         self.engine = AutoscalingEngine(self.policy)
         self.status = "idle" # 'idle', 'running', 'paused', 'stopped'
