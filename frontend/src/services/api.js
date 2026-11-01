@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = 'https://ai-based-predictive-autoscaling-engine.onrender.com/api';
 
 async function handleResponse(response) {
   if (!response.ok) {
@@ -49,7 +49,7 @@ export const api = {
 
   // Telemetry & Data
   async getSummary() {
-    const res = await fetch(`${BASE_URL}/data/summary`);
+    const res = await fetch(`${BASE_URL}/reports/summary`);
     return handleResponse(res);
   },
 
@@ -117,7 +117,7 @@ export const api = {
   },
 
   async getScalingEvents() {
-    const res = await fetch(`${BASE_URL}/autoscaling/events`);
+   const res = await fetch(`${BASE_URL}/autoscaling/events`);
     return handleResponse(res);
   },
 
